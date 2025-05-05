@@ -1,0 +1,53 @@
+:root{
+    --dark-color: rgb(26, 111, 172);
+}
+.navbar {
+    background-color:var(--dark-color);
+}
+.navbar .img{
+    width: 20px;
+}
+#navbarNavDropdown a{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+#navbarNavDropdown a:hover{
+    color: #0084ff;
+}
+.card{
+    transition: .3s ease;
+    background-color:rgba(0, 0, 0, 0.445);
+    border-radius: 15px;
+    color: white;
+
+}
+.card:hover{
+transform: scale(1.1);
+}
+
+#services{
+    padding-left: 100px;
+    background-image:url("https://img.freepik.com/premium-photo/abstract-background-showcasing-it-technology-illustrating-complexity-innovation_217468-24790.jpg?w=1060 ");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    body{
+        height: 100%;
+        margin: 0;
+    }
+    .col{padding-top: 20px;}
+
+
+    .carousel-indicators{
+        margin-bottom: 0rem;
+    }
+    #carouselExampleIndicators{
+        background-color: #073e62;;
+    }
+    .carousel-inner img{
+        width: 1000px !important;
+        padding-left: 350px;
+        height: 550px;
+    }
